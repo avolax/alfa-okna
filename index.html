@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff5f01">
+  <link href="/CSS/style.css" rel="stylesheet">
+  <title>Альфа Окна</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-box">
+          <nav aria-label="Сервисное меню">
+            <ul class="header__top-list">
+              <li class="header__top-item"><a class="header__top-link" href="/">ПРОИЗВОДСТВО</a></li>
+              <li class="header__top-item"><a class="header__top-link" href="/">РАССРОЧКА</a></li>
+              <li class="header__top-item"><a class="header__top-link" href="/">КРЕДИТ</a></li>
+            </ul>
+          </nav>
+          <button class="header__top-btn" type="button">ВЫЗВАТЬ ЗАМЕРЩИКА</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="header__main">
+      <div class="container">
+        <div class="header__main-box">
+          <a class="header__logo" href="/" aria-label="На главную">
+            <img src="img/icons/logo.svg" alt="Логотип компании Альфа Окна">
+          </a>
+          <div class="header__content">
+            <address class="header__content-address">
+              <div class="header__content-box">
+                <a class="header__content-tel" href="tel:+74862507736">+7 (4862) 50-77-36</a>
+                <button class="header__content-link" type="button">Обратный звонок</button>
+              </div>
+              <div class="header__content-box">
+                <p class="header__content-location">г. Орел, ул. Приборостроительная 56</p>
+                <button class="header__content-link" type="button">Показать на карте</button>
+              </div>
+            </address>
+            <div class="header__content-box">
+              <p class="header__content-time">Режим работы</p>
+              <div class="header__content-worktime">
+                <time datetime="">Пн.-Пт. с 9:30 до 19:00</time>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <div class="container">
+        <button class="header__burger" id="burger">
+          <span></span>
+        </button>
+        <ul class="header__nav-list" id="menu">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Главная
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Окна
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Цены
+            </a>
+          </li>
+          <li class="header__nav-item current--page">
+            <a class="header__nav-link" href="/">
+              Балконы и лоджии
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Двери
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Перегородки
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Комплектующие
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Отзывы
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="background"></div>
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li><a href="/">Главная</a></li>
+          <li><a href="/">Балконы и лоджии</a></li>
+          <li aria-current="page">Отделка балконов и лоджий</li>
+        </ul>
+      </div>
+    </nav>
+    <section class="finishing">
+      <div class="container">
+        <h1 class="finishing__title">Отделка балконов и лоджий</h1>
+        <ul class="finishing__content">
+          <li class="finishing__item">
+            <figure>
+              <img class="finishing__item-img" alt="Внутренняя отделка балкона под ключ"
+                src="/img/content/finishing_section/finishing_balconies_1.png">
+              <figcaption class="finishing__item-title">Внутренняя отделка</figcaption>
+            </figure>
+            <div class="finishing__btn-box">
+              <button class="finishing__item-btn" type="button">ЗАКАЗАТЬ</button>
+              <button class="finishing__btn--hover" type="button">ПОДРОБНЕЕ</button>
+            </div>
+          </li>
+          <li class="finishing__item">
+            <figure>
+              <img class="finishing__item-img" src="/img/content/finishing_section/finishing_balconies_2.png"
+                alt="Внешняя отделка балкона под ключ">
+              <figcaption class="finishing__item-title">Внешняя отделка</figcaption>
+            </figure>
+            <div class="finishing__btn-box">
+              <button class="finishing__item-btn" type="button">ЗАКАЗАТЬ</button>
+              <button class="finishing__btn--hover" type="button">ПОДРОБНЕЕ</button>
+            </div>
+          </li>
+          <li class="finishing__item">
+            <figure>
+              <img class="finishing__item-img" src="/img/content/finishing_section/finishing_balconies_3.png"
+                alt="Утепление балкона под ключ">
+              <figcaption class="finishing__item-title">Утепление балкона</figcaption>
+            </figure>
+            <div class="finishing__btn-box">
+              <button class="finishing__item-btn" type="button">ЗАКАЗАТЬ</button>
+              <button class="finishing__btn--hover" type="button">ПОДРОБНЕЕ</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="variants">
+      <div class="container">
+        <h2 class="variants__title">Варианты отделки балконов и лоджий</h2>
+        <div class="variants__text-box">
+          <p class="variants__text">
+            Каждый из нас стремится улучшить свой дом, сделать его более комфортным и уютным, но иногда мы совсем
+            забываем
+            про наш балкон. Отделка балкона с использованием качественных и современных материалов преобразит
+            пространство
+            на балконе и сделает его более функциональным, а при необходимости превратит его в отдельную комнату.
+            Компания
+            «Альфа Окна» на протяжении большого времени занимается отделкой и утеплением балконов и лоджий в Орле и
+            Орловской области.
+          </p>
+        </div>
+        <ul class="variants__list">
+          <li class="variants__item item--plastic item--full">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Отделка балкона пластиковыми панелями</h3>
+              <p class="variants__item-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eum, eius
+                est
+                distinctio animi necessitatibus mollitia quae recusandae similique possimus.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">900</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--wood item--full">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Отделка лоджии деревом</h3>
+              <p class="variants__item-descr">Мы используем вагонку экстра-класса. Её особенность – это отсутствие
+                сучков.
+                Достоинствами этого материала являются экологичность, красота и теплоизоляционные свойства.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">900</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--drywall item--full">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Отделка балкона гипсокартоном</h3>
+              <p class="variants__item-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eum, eius
+                est
+                distinctio animi necessitatibus mollitia quae recusandae similique possimus.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">950</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--wallpaper item--half">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Покраска и оклейка обоями</h3>
+              <p class="variants__item-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eum, eius
+                est
+                distinctio animi necessitatibus mollitia quae recusandae similique possimus.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">350</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--laminate item--half">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Отделка балкона ламинатом</h3>
+              <p class="variants__item-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eum, eius
+                est
+                distinctio animi necessitatibus mollitia quae recusandae similique possimus.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">900</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--vinyl item--full">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Отделка балкона виниловой вагонкой</h3>
+              <p class="variants__item-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eum, eius
+                est
+                distinctio animi necessitatibus mollitia quae recusandae similique possimus.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">350</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--exterior item--full">
+            <div class="variants__item-top">
+              <h3 class="variants__item-title">Внешняя отделка балкона</h3>
+              <p class="variants__item-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eum, eius
+                est
+                distinctio animi necessitatibus mollitia quae recusandae similique possimus.</p>
+            </div>
+            <div class="variants__item-box">
+              <span class="variants__item-price">
+                Цена от <span class="price-number">750</span> <span class="price-currency">j</span>/м2
+              </span>
+              <button class="variants__item-btn" type="button">ЗАКАЗАТЬ</button>
+            </div>
+          </li>
+          <li class="variants__item item--form item--full">
+            <h3 class="variants__item-title">Получите консультацию прямо сейчас!</h3>
+            <form class="variants__item-form" action="">
+              <input class="variants__item-input" type="text" placeholder="Имя" aria-label="Укажите имя" required>
+              <input class="variants__item-input" type="tel" placeholder="Телефон" aria-label="Укажите телефон"
+                required>
+              <input class="variants__item-input" type="email" placeholder="Email" aria-label="Укажите email">
+              <input class="variants__item-input" type="text" placeholder="Интересующая услуга/продукт"
+                aria-label="Укажите интересуюущую услугу/продукт">
+              <textarea class="variants__item-comm" name="" id="" placeholder="Комментарий"
+                aria-label="Укажите комментарий"></textarea>
+              <div class="variants__item-bottom">
+                <p class="variants__item-policy">Отправляя заявку я соглашаюсь с политикой конфиденциальности</p>
+                <button class="variants__item-btn-form" type="submit"
+                  aria-label="Отправить заявку на консультацию          ">ОТПРАВИТЬ</button>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="ideas">
+      <div class="container">
+        <h2 class="ideas__title">Идеи по отделке балконов и лоджий</h2>
+        <ul class="ideas__list">
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_1.png"
+                alt="Кабинет на балконе">
+              <button class="ideas__item-btn" aria-label="Заказать для кабинета на балконе">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Кабинет на балконе</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_2.png" alt="Хранение вещей">
+              <button class="ideas__item-btn" aria-label="Заказать для хранения вещей">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Хранение вещей</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_3.png" alt="Зона отдыха">
+              <button class="ideas__item-btn" aria-label="Заказать для зоны отдыха">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Зона отдыха</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_4.png"
+                alt="Оранжерея на лоджии">
+              <button class="ideas__item-btn" aria-label="Заказать для оранжереи на лоджии">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Оранжерея на лоджии</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_5.png"
+                alt="Лоджия в стиле Лофт">
+              <button class="ideas__item-btn" aria-label="Заказать для лоджии в стиле Лофт">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Лоджия в стиле Лофт</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_6.png" alt="В едином стиле">
+              <button class="ideas__item-btn" aria-label="Заказать в едином стиле">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">В едином стиле</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_7.png"
+                alt="Расширение полезной территории">
+              <button class="ideas__item-btn" aria-label="Заказать для расширения полезной площади">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Расширение полезной территории</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_8.png"
+                alt="Гримерка на лоджии">
+              <button class="ideas__item-btn" aria-label="Заказать для гримерки на лоджии">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Гримерка на лоджии</h3>
+          </li>
+          <li class="ideas__item">
+            <div class="ideas__item-box">
+              <img class="ideas__item-img" src="img/content/ideas_section/ideas_balconies_9.png"
+                alt="Гардеробная комната на лоджии">
+              <button class="ideas__item-btn" aria-label="Заказать для гардеробной комнаты на лоджии">ЗАКАЗАТЬ</button>
+            </div>
+            <h3 class="ideas__item-title">Гардеробная комната на лоджии</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="parametrs">
+      <div class="container">
+        <h2 class="parametrs__title">Параметры отделки: <span>цена за кв.метр</span></h2>
+        <ul class="parametrs__list">
+          <li class="parametrs__item">
+            <img class="parametrs__item-img" src="/img/content/parametrs_section/parametrs_finishing_1.png"
+              alt="Отделка стен">
+            <h3 class="parametrs__item-title">Отделка стен</h3>
+            <ul class="parametrs__item-sublist">
+              <li class="parametrs__item-sublist-item">
+                <span>Деревянная вагонка, класс-А</span>
+                <span class="parametrs__price">от 2900 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Деревянная вагонка, класс Экстра</span>
+                <span class="parametrs__price">от 3750 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Вагонка ПВХ</span>
+                <span class="parametrs__price">от 2250 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Панелями МДФ</span>
+                <span class="parametrs__price">от 2150 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Панелями ПВХ</span>
+                <span class="parametrs__price">от 2350 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Панелями ламинированными</span>
+                <span class="parametrs__price">от 3400 <span class="alsrubl">j</span></span>
+              </li>
+            </ul>
+
+          </li>
+          <li class="parametrs__item">
+            <img class="parametrs__item-img" src="/img/content/parametrs_section/parametrs_finishing_2.png"
+              alt="Устройство пола">
+            <h3 class="parametrs__item-title">Устройство пола</h3>
+            <ul class="parametrs__item-sublist">
+              <li class="parametrs__item-sublist-item">
+                <span>Фанера</span>
+                <span class="parametrs__price">от 3650 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Доска строганная</span>
+                <span class="parametrs__price">от 3650 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Линолеум</span>
+                <span class="parametrs__price">от 2360 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Ламинат</span>
+                <span class="parametrs__price">от 3150 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Керамическая плитка, работа</span>
+                <span class="parametrs__price">от 2300 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Ламинат AQUA-STEP</span>
+                <span class="parametrs__price">от 8150 <span class="alsrubl">j</span></span>
+              </li>
+            </ul>
+
+          </li>
+          <li class="parametrs__item">
+            <img class="parametrs__item-img" src="/img/content/parametrs_section/parametrs_finishing_3.png"
+              alt="Отделка потолка">
+            <h3 class="parametrs__item-title">Отделка потолка</h3>
+            <ul class="parametrs__item-sublist">
+              <li class="parametrs__item-sublist-item">
+                <span>Деревянная вагонка, класс-А</span>
+                <span class="parametrs__price">от 2900 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Деревянная вагонка, класс Экстра</span>
+                <span class="parametrs__price">от 3750 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Вагонка ПВХ</span>
+                <span class="parametrs__price">от 2250 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Панелями МДФ</span>
+                <span class="parametrs__price">от 2150 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Панелями ПВХ</span>
+                <span class="parametrs__price">от 2350 <span class="alsrubl">j</span></span>
+              </li>
+              <li class="parametrs__item-sublist-item">
+                <span>Панелями ламинированными</span>
+                <span class="parametrs__price">от 3400 <span class="alsrubl">j</span></span>
+              </li>
+            </ul>
+
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="price">
+      <div class="container">
+        <h2 class="price__title">Цены на виды отделки</h2>
+        <ul class="price__list">
+          <li class="price__item">
+            <div class="price__content-left">
+              <h3 class="price__content-title">Отделка «Эконом»</h3>
+              <p class="price__content-descr">
+                Бюджетный вариант работ, в который входит внутренняя отделка балкона или лоджии вагонкой ПВХ.
+              </p>
+              <p class="price__content-descr">
+                <span class="price__weigth">Стоимость: <span class="price__color"><span class="price__size">2500</span>
+                    руб. кв.м.*</span></span><br>
+                *Цена за материалы и работы.
+              </p>
+              <button class="price__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="price__content-right">
+
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_1.png" alt="Схема лоджии">
+                <figcaption class="price__content-text">Лоджия - <span style="white-space: nowrap;"><span
+                      class="price__weigth">52 500</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_2.png" alt="Схема каблука">
+                <figcaption class="price__content-text">Каблук - <span style="white-space: nowrap;"><span
+                      class="price__weigth">62 500</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_3.png"
+                  alt="Схема П-образного балкона">
+                <figcaption class="price__content-text">П-образный балкон - <span style="white-space: nowrap;"><span
+                      class="price__weigth">33 500</span>
+                    <span class="alsrubl">j</span></span>
+                </figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_4.png"
+                  alt="Схема углового балкона">
+                <figcaption class="price__content-text">Угловой балкон - <span style="white-space: nowrap;"><span
+                      class="price__weigth">44 500</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__content-left">
+              <h3 class="price__content-title">Отделка «Стандарт»</h3>
+              <p class="price__content-descr">
+                Отделочные декоративные работы. Вариант включает в себя утепление в 1 слой тепофолом, обшивка парапета,
+                стен и потолка ламинированными панелями ПВХ, а также укладка ламината на пол.
+              </p>
+              <p class="price__content-descr">
+                <span class="price__weigth">Стоимость: <span class="price__color"><span class="price__size">3500</span>
+                    руб. кв.м.*</span></span><br>
+                *Цена за материалы и работы.
+              </p>
+              <button class="price__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="price__content-right">
+
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_1.png" alt="Схема лоджии">
+                <figcaption class="price__content-text">Лоджия - <span style="white-space: nowrap;"><span
+                      class="price__weigth">77 700</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_2.png" alt="Схема каблука">
+                <figcaption class="price__content-text">Каблук - <span style="white-space: nowrap;"><span
+                      class="price__weigth">96 200</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_3.png"
+                  alt="Схема П-образного балкона">
+                <figcaption class="price__content-text">П-образный балкон - <span style="white-space: nowrap;"><span
+                      class="price__weigth">49 500</span>
+                    <span class="alsrubl">j</span></span>
+                </figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_4.png"
+                  alt="Схема углового балкона">
+                <figcaption class="price__content-text">Угловой балкон - <span style="white-space: nowrap;"><span
+                      class="price__weigth">68 000</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__content-left">
+              <h3 class="price__content-title">Отделка «Комфорт»</h3>
+              <p class="price__content-descr">
+                Комплексные отделочные работы. Вариант включается в себя работы по подготовке стен: грунтовка,
+                шпаклевка, покраска парапета, стен и потолка, а также укладка плитки на пол.
+              </p>
+              <p class="price__content-descr">
+                <span class="price__weigth">Стоимость: <span class="price__color"><span class="price__size">4500</span>
+                    руб. кв.м.*</span></span><br>
+                *Цена за материалы и работы.
+              </p>
+              <button class="price__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="price__content-right">
+
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_1.png" alt="Схема лоджии">
+                <figcaption class="price__content-text">Лоджия - <span style="white-space: nowrap;"><span
+                      class="price__weigth">147 000</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_2.png" alt="Схема каблука">
+                <figcaption class="price__content-text">Каблук - <span style="white-space: nowrap;"><span
+                      class="price__weigth">182 000</span> <span class="alsrubl">j</span></span></figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_3.png"
+                  alt="Схема П-образного балкона">
+                <figcaption class="price__content-text">П-образный балкон - <span style="white-space: nowrap;"><span
+                      class="price__weigth">94 500</span>
+                    <span class="alsrubl">j</span></span>
+                </figcaption>
+              </figure>
+              <figure class="price__content-figure">
+                <img class="price__content-img" src="/img/content/price_section/sheme_4.png"
+                  alt="Схема углового балкона">
+                <figcaption class="price__content-text">Угловой балкон - <span style="white-space: nowrap;"><span
+                      class="price__weigth">124 500</span>
+                    <span class="alsrubl">j</span></span>
+                </figcaption>
+              </figure>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script>
+    const burger = document.getElementById('burger');
+    const menu = document.getElementById('menu');
+    const body = document.body;
+
+    const toggleMenu = function (e) {
+      if (!e.target.classList.contains('active')) {
+        menu.classList.toggle('active');
+        burger.classList.toggle('position');
+        body.classList.toggle('no-scroll');
+      } else {
+        burger.classList.toggle('active');
+        burger.classList.toggle('position');
+        body.classList.toggle('no-scroll');
+      }
+    }
+
+    burger.addEventListener('click', (e) => {
+      toggleMenu(e);
+    });
+
+  </script>
+</body>
+
+</html>
